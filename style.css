@@ -40,8 +40,9 @@ body {
   display: inline-grid;
   grid-template-columns: repeat(8, 60px);
   justify-items: center;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-size: 1.6rem;
 }
 
 .board {
