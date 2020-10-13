@@ -36,6 +36,13 @@ body {
   align-content: center;
   margin: 0 auto;
 }
+.letters {
+  display: inline-grid;
+  grid-template-columns: repeat(8, 60px);
+  justify-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 
 .board {
   display: grid;
