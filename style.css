@@ -42,8 +42,6 @@ body {
   grid-template-columns: repeat(8, 60px);
   grid-template-rows: repeat(8, 60px);
   border: 15px solid #3a3a3a;
-
-  margin: 0 auto;
   grid-template-areas:
     "a8 b8 c8 d8 e8 f8 g8 h8 "
     "a7 b7 c7 d7 e7 f7 g7 h7 "
@@ -58,7 +56,7 @@ body {
   /* center item*/
   margin: auto;
 }
-
+/* black item*/
 .black-rook-1 {
   grid-area: a8;
 }
@@ -107,7 +105,7 @@ body {
 .black-bishop-10 {
   grid-area: h7;
 }
-
+/* white item*/
 .white-bishop-1 {
   grid-area: a2;
 }
