@@ -156,11 +156,11 @@ body {
   grid-area: e1;
 }
 #white-bishop-10 {
-  grid-area: f4;
+  grid-area: f1;
 }
 #white-knight-2 {
-  grid-area: g4;
+  grid-area: g1;
 }
 #white-rook-2 {
-  grid-area: h4;
+  grid-area: h1;
 }
