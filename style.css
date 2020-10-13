@@ -40,6 +40,7 @@ body {
   display: inline-grid;
   grid-template-columns: repeat(8, 60px);
   justify-items: center;
+
   padding-bottom: 8px;
   padding-top: 8px;
   font-size: 1.6rem;
@@ -65,100 +66,101 @@ body {
   margin: auto;
 }
 /* black item*/
-.black-rook-1 {
+
+#black-rook-1 {
   grid-area: a8;
 }
-.black-knight-1 {
+#black-knight-1 {
   grid-area: b8;
 }
-.black-bishop-1 {
+#black-bishop-1 {
   grid-area: c8;
 }
-.black-queen-1 {
+#black-queen-1 {
   grid-area: d8;
 }
-.black-king-1 {
+#black-king-1 {
   grid-area: e8;
 }
-.black-bishop-2 {
+#black-bishop-2 {
   grid-area: f8;
 }
-.black-knight-2 {
+#black-knight-2 {
   grid-area: g8;
 }
-.black-rook-2 {
+#black-rook-2 {
   grid-area: h8;
 }
-.black-bishop-3 {
+#black-bishop-3 {
   grid-area: a7;
 }
-.black-bishop-4 {
+#black-bishop-4 {
   grid-area: b7;
 }
-.black-bishop-5 {
+#black-bishop-5 {
   grid-area: c7;
 }
-.black-bishop-6 {
+#black-bishop-6 {
   grid-area: d7;
 }
-.black-bishop-7 {
+#black-bishop-7 {
   grid-area: e7;
 }
-.black-bishop-8 {
+#black-bishop-8 {
   grid-area: f7;
 }
-.black-bishop-9 {
+#black-bishop-9 {
   grid-area: g7;
 }
-.black-bishop-10 {
+#black-bishop-10 {
   grid-area: h7;
 }
 /* white item*/
-.white-bishop-1 {
+#white-bishop-1 {
   grid-area: a2;
 }
-.white-bishop-2 {
+#white-bishop-2 {
   grid-area: b2;
 }
-.white-bishop-3 {
+#white-bishop-3 {
   grid-area: c2;
 }
-.white-bishop-4 {
+#white-bishop-4 {
   grid-area: d2;
 }
-.white-bishop-5 {
+#white-bishop-5 {
   grid-area: e2;
 }
-.white-bishop-6 {
+#white-bishop-6 {
   grid-area: f2;
 }
-.white-bishop-7 {
+#white-bishop-7 {
   grid-area: g2;
 }
-.white-bishop-8 {
+#white-bishop-8 {
   grid-area: h2;
 }
-.white-rook-1 {
+#white-rook-1 {
   grid-area: a1;
 }
-.white-knight-1 {
+#white-knight-1 {
   grid-area: b1;
 }
-.white-bishop-9 {
+#white-bishop-9 {
   grid-area: c1;
 }
-.white-queen-1 {
+#white-queen-1 {
   grid-area: d1;
 }
-.white-king-1 {
+#white-king-1 {
   grid-area: e1;
 }
-.white-bishop-10 {
-  grid-area: f1;
+#white-bishop-10 {
+  grid-area: f4;
 }
-.white-knight-2 {
-  grid-area: g1;
+#white-knight-2 {
+  grid-area: g4;
 }
-.white-rook-2 {
-  grid-area: h1;
+#white-rook-2 {
+  grid-area: h4;
 }
